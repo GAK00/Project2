@@ -7,3 +7,21 @@
 //
 
 #include "Controller.hpp"
+#include <iostream>
+
+using namespace std;
+
+void Controller :: start()
+{
+    cout << "you are cool due"<<endl;
+    tryNumbers(10);
+}
+void Controller :: tryNumbers(int sent)
+{
+    sent = sent +20;
+    cout << sent;
+}
+int Controller::changeNumber()
+{
+    return 25;
+}
