@@ -26,11 +26,11 @@
 
 /* Begin PBXFileReference section */
 		D31218561E3B9A650015CB3E /* Project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project2; sourceTree = BUILT_PRODUCTS_DIR; };
-		D31218601E3B9C620015CB3E /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
-		D31218631E3B9C6B0015CB3E /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
-		D31218641E3B9C6B0015CB3E /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
-		D3205CBB1E40EC5A0007BBDA /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
-		D3205CBC1E40EC5A0007BBDA /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		D31218601E3B9C620015CB3E /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Runner.cpp; path = Controller/Runner.cpp; sourceTree = "<group>"; };
+		D31218631E3B9C6B0015CB3E /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = Controller/Controller.cpp; sourceTree = "<group>"; };
+		D31218641E3B9C6B0015CB3E /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Controller.hpp; path = Controller/Controller.hpp; sourceTree = "<group>"; };
+		D3205CBB1E40EC5A0007BBDA /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Timer.cpp; path = "/Users/gkun9931/Documents/C++ workspace/Project2/Project2/Model/Timer.cpp"; sourceTree = "<absolute>"; };
+		D3205CBC1E40EC5A0007BBDA /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = Model/Timer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

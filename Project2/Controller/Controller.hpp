@@ -14,6 +14,7 @@ class Controller
 private:
     void tryNumbers(int sent);
     int changeNumber();
+    void changeNumberWithPointer(int * pointer);
 public:
     void start();
 };
